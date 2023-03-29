@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'Chau Philo';
+  src: url('fonts/ChauPhilomeneOne-Regular.ttf') format('truetype');
+}
+
+.home-text {
+  font-family: 'Chau Philo', sans-serif;
+  font-size: 100px;
+  position: absolute;
+  left: 50px;
+  top: 75px;
+  color: #373636;
+  text-shadow: 5px 3px 6px #5e5e5e;
+}
+
+.btn-it {
+  position: absolute;
+  top: 500px;
+  right: 20%;
+}
+
+.nextBack {
+  position: absolute;
+  top: 300px;
+  right: 0;
+}
+
+.res-img {
+  width: 450px; 
+  height: 450px;
+}
+
+.imgNP {
+  position: absolute;
+  right: 115px;
+  top: 70px;
+}
+
+.txtImg {
+  font-family: Norwester, sans-serif;
+  font-size: 20px;
+  position: relative;
+  text-align: center;
+  bottom: 70px;
+}
+
+.next {
+  font-size: 30px;
+  color: #c2c2c2;
+}
+
+.prev {
+  font-size: 30px;
+  color: #c2c2c2;
+}
+
+.nexthover {
+  color: #c2c2c2;;
+}

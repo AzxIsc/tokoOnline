@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'Chau Philomene';
+    src: url('fonts/ChauPhilomeneOne-Italic.ttf') format('truetype');
+  }  
+
+body {
+	background-color: #a7c7e7;
+    padding-top: 100px;
+    padding-left: 400px;
+}
+
+.container {
+	margin: auto;
+	width: 500px;
+	height: 550px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.logo {
+    position: absolute;
+    left: -500px;
+    top: 129px;
+    width: 100px;
+    height: 100px;
+}
+
+
+.logo img {
+	max-width: 400px;
+	max-height: 400px;
+}
+
+.form {
+	flex: 2;
+	padding: 0px;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+h2 {
+    font-family: 'Chau Philomene', sans-serif;
+    margin-bottom: 20px;
+    margin-right: 75%;
+    text-align: left;
+}
+
+.login-text {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
+  
+    
+form {
+    width: 100%;
+}
+    
+label {
+    display: block;
+    margin-bottom: 10px;
+    background-color: #efefef;
+}
+    
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #efefef;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+    
+.password-input {
+    position: relative;
+}
+    
+.password-input input[type="password"] {
+    padding-right: 30px;
+}
+
+.password-input .toggle-password {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.password-input.password-error input {
+    border-color: red;
+}
+    
+.toggle-password img {
+    max-width: 20px;
+}
+
+input[type="text"] {
+    background-color: #efefef;
+}
+
+input[type="email"] {
+    background-color: #efefef;
+}
+
+input[type="password"] {
+    background-color: #efefef;
+}
+
+input[type="submit"] {
+    background-color: #6199d0;
+    color: #fff;
+    padding: 10px 160px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Open Sans Extra', sans-serif;
+}
+    
+input[type="submit"]:hover {
+    background-color: #a7c7e7;
+}
+
+form i {
+    margin-left: -30px;
+    cursor: pointer;
+}
+    
+@media only screen and (max-width: 768px) {
+.container {
+    flex-direction: column;
+    height: auto;
+}
+
+.form {
+	width: 100%;
+	padding: 20px;
+}
+
+.logo {
+	order: 2;
+	margin-bottom: 20px;
+}
+}
